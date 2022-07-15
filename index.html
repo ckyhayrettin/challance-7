@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png" />
+    <link rel="stylesheet" href="style.css">
+    <title>Expenses chart component</title>
+</head>
+
+<body>
+    <div class="section">
+        <div class="header">
+            <div class="header__left">
+                <h2 class="header__title">My balance</h2>
+                <div class="header__total">$921.48</div>
+            </div>
+            <div class="header__right">
+                <div class="header__logo">
+                    <img src="./img/logo.svg" alt="logo">
+                </div>
+            </div>
+        </div>
+        <div class="body">
+            <div class="body__title">
+                <h1 class="body__h1">spending - Last 7 days</h1>
+            </div>
+            <div class="body__graphic">
+                <div class="body__1day">
+                    <div class="body__box1"></div>
+                    <p class="body__mon">mon</p>
+                </div>
+                <div class="body__2day">
+                    <div class="body__box2"></div>
+                    <p class="body__tue">tue</p>
+                </div>
+                <div class="body__3day">
+                    <div class="body__show3">$52,36</div>
+                    <div class="body__box3 day"></div>
+                    <p class="body__wed">wed</p>
+                </div>
+                <div class="body__4day">
+                    <div class="body__show4">$31,07</div>
+                    <div class="body__box4 day"></div>
+                    <p class="body__thu">thu</p>
+                </div>
+                <div class="body__5day">
+                    <div class="body__box5"></div>
+                    <p class="body__fri">fri</p>
+                </div>
+                <div class="body__6day">
+                    <div class="body__box6"></div>
+                    <p class="body__sat">sat</p>
+                </div>
+                <div class="body__7day">
+                    <div class="body__box7"></div>
+                    <p class="body__sun">sun</p>
+                </div>
+            </div>
+            <div class="body__footer">
+                <div class="body__bottoml">
+                    <h2 class="body__h2">Total this month</h2>
+                    <div class="body__total">$478.33</div>
+                </div>
+                <div class="body__bottomr">
+                    <small class="body__small">+2.4%</small>
+                    <h4 class="body__h4">form last month</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
